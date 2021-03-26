@@ -1,0 +1,13 @@
+{% extends 'game/base.html' %}
+
+{% block content %}
+
+    <p>This is a <em>choose your own adventure game</em>.</p>
+    <div style="text-align:center;">
+      <form method="POST" class="player-form">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-primary">Enviar</button>
+      </form>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'game/base.html' %}
+
+{% block content %}
+<div class="content container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Olá, {{ current_player }}!</h3>
+            <p> {{ stage.text }} </p>
+           
+                   <form action="" method="POST" class="stage-form">{% csrf_token %} 
+                    <button type="submit" class="save btn btn-primary">{{ stage.A1 }}</button>
+                    </form> 
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,45 @@
+/*--bistre: #251101ff;
+--tyrian-purple: #470024ff;
+--midnight: #5b1865ff;
+--bdazzled-blue: #2c5784ff;
+--glaucous: #5688c7ff;
+*/
+
+@font-face {
+    font-family: 'friz';
+    src: url('fonts/friz-quadrata.otf') format('opentype');
+}
+
+h1 {
+    font-family: 'friz';
+    color: #251101ff;
+    text-align:center;
+}
+
+h3 {
+    font-family: 'friz';
+ 	color: #251101ff;
+    text-align:center;
+}
+
+p {
+    font-family: 'friz';
+	color: #251101ff;
+	text-align:center;
+}
+button {
+    font-family: 'friz';
+}
+
+body {
+    background-color: white;
+}
+
+label {
+    font-family: 'friz';
+}
+
+form {
+    font-family: 'fritz';
+    text-align:center;
+}
